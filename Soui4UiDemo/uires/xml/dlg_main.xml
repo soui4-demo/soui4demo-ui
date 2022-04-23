@@ -1,0 +1,43 @@
+﻿<SOUI
+	name="mainWindow"
+	title="@string/title"
+	bigIcon="ICON_LOGO:32"
+	smallIcon="ICON_LOGO:16"
+	width="800" height="600"
+	maxInset="12,12,12,12"
+	margin="0,0,0,0"
+	resizable="1"
+	wndType="appMain"
+	toolWindow="1"
+	translucent="1"
+	trCtx="dlg_main"
+	appWnd="1"
+	sendWheel2Hover="1"
+>
+	<root skin="skin_shadow_png" cache="1" >
+		<caption pos="12,12,-12,-12" font="adding:0" colorBkgnd="@color/color-white">
+			<caption pos="0,0,-0,40">
+				<include pos="0,0" src="LAYOUT:WIN_TOPNAVBAR" />
+			</caption>
+			<caption pos="0,[0" size="-2,1" colorBkgnd="@color/border-color-extra-light" />
+			<caption pos="0,[0,-0,-30">
+				<tabctrl name="tab_main" pos="0,0,-0,-0" padding="5,5,5,5" curSel="2" drawFocusRect="0" interpolator="Decelerate" animateSteps="30" animateType="1" tabWidth="80" tabHeight="40"  tabInterSize="5,5,-5,-5" tabPos="5,5,-5,-5" tabSkin="skin_btn_default" class="class_btn_font_default" colorBkgnd="@color/background-color-base">
+					<page title="首页">
+						<include pos="0,0" src="LAYOUT:MAIN_PAGE_HOME"/>
+					</page>
+					<page title="按钮">
+						<include pos="0,0" src="LAYOUT:MAIN_PAGE_BUTTON"/>
+					</page>
+					<page title="列表">
+						<include pos="0,0" src="LAYOUT:MAIN_PAGE_LIST"/>
+					</page>
+					
+				</tabctrl>
+			</caption>
+			<caption pos="0,[0,-0,-0">
+				<include pos="0,0" src="LAYOUT:WIN_FOOTNAVBAR" />
+			</caption>
+			<shellnotifyicon name="menu" ico="ICON_LOGO" tip="@string/title" />
+		</caption>
+	</root>
+</SOUI>

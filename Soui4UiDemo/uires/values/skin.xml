@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skin> 
+	<imgframe name="skin_shadow_png" src="IMG:shadow_png" margin-y="20" margin-x="20" filterLevel="high" />
+	<imglist name="msgico" src="IMG:msgicon" states="4" filterLevel="high"/>
+	<imglist name="skin_checkbox_png" src="IMG:checkbox_png" states="8" checkAsPushdown="0" filterLevel="high" />
+	<scrollbar name="skin_scroll_bar_png" src="IMG:scroll_bar_png" margin="3" hasGripper="0" filterLevel="high" />
+	<imglist name="skin_close_png" src="IMG:close_png" states="3" filterLevel="high" />
+	<imglist name="skin_max_png" src="IMG:max_png" states="3" filterLevel="high" />
+	<imglist name="skin_restore_png" src="IMG:restore_png" states="3" filterLevel="high" />
+	<imglist name="skin_min_png" src="IMG:min_png" states="3" filterLevel="high" />
+	<imglist name="skin_home_png" src="IMG:home_png" states="1" filterLevel="high" />
+	<imglist name="skin_query_png" src="IMG:query_png" states="1" filterLevel="high" />
+	<imgframe name="skin_lcex_header" src="IMG:png_lcex_header" states="4" margin-x="2" margin-y="2" />
+	<imgframe name="skin_lcex_header_arrow" src="IMG:png_lcex_header_arrow" states="2" />
+	
+	<button name="skin_btn_default" colorUp="@color/color-white" colorDown="@color/color-white" colorUpHover="#ecf5ff" colorDownHover="#ecf5ff" colorUpPush="#ecf5ff" colorDownPush="#ecf5ff" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/border-color-base" colorBorderHover="#c6e2ff" colorBorderPush="#3a8ee6" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_default" colorUp="@color/color-white" colorDown="@color/color-white" colorUpHover="#ecf5ff" colorDownHover="#ecf5ff" colorUpPush="#ecf5ff" colorDownPush="#ecf5ff" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+	<button name="skin_btn_primary" colorUp="@color/color-primary" colorDown="@color/color-primary" colorUpHover="#66b1ff" colorDownHover="#66b1ff" colorUpPush="#3a8ee6" colorDownPush="#3a8ee6" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-primary" colorBorderHover="#66b1ff" colorBorderPush="#3a8ee6" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_primary" colorUp="@color/color-primary" colorDown="@color/color-primary" colorUpHover="#66b1ff" colorDownHover="#66b1ff" colorUpPush="#3a8ee6" colorDownPush="#3a8ee6" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+	<button name="skin_btn_success" colorUp="@color/color-success" colorDown="@color/color-success" colorUpHover="#85ce61" colorDownHover="#85ce61" colorUpPush="#5daf34" colorDownPush="#5daf34" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-success" colorBorderHover="#85ce61" colorBorderPush="#5daf34" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_success" colorUp="@color/color-success" colorDown="@color/color-success" colorUpHover="#85ce61" colorDownHover="#85ce61" colorUpPush="#5daf34" colorDownPush="#5daf34" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+	<button name="skin_btn_info" colorUp="@color/color-info" colorDown="@color/color-info" colorUpHover="#a6a9ad" colorDownHover="#a6a9ad" colorUpPush="#82848a" colorDownPush="#82848a" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-info" colorBorderHover="#a6a9ad" colorBorderPush="#82848a" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_info" colorUp="@color/color-info" colorDown="@color/color-info" colorUpHover="#a6a9ad" colorDownHover="#a6a9ad" colorUpPush="#82848a" colorDownPush="#82848a" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+	<button name="skin_btn_warning" colorUp="@color/color-warning" colorDown="@color/color-warning" colorUpHover="#ebb563" colorDownHover="#ebb563" colorUpPush="#cf9236" colorDownPush="#cf9236" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-warning" colorBorderHover="#ebb563" colorBorderPush="#cf9236" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_warning" colorUp="@color/color-warning" colorDown="@color/color-warning" colorUpHover="#ebb563" colorDownHover="#ebb563" colorUpPush="#cf9236" colorDownPush="#cf9236" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+	<button name="skin_btn_danger" colorUp="@color/color-danger" colorDown="@color/color-danger" colorUpHover="#f78989" colorDownHover="#f78989" colorUpPush="#dd6161" colorDownPush="#dd6161" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-danger" colorBorderHover="#f78989" colorBorderPush="#dd6161" colorBorderDisable="@color/border-color-base"/>
+	<button name="skin_btn_no_danger" colorUp="@color/color-danger" colorDown="@color/color-danger" colorUpHover="#f78989" colorDownHover="#f78989" colorUpPush="#dd6161" colorDownPush="#dd6161" colorUpDisable="#DDDDDDFF" colorDownDisable="#DDDDDDFF" cornerRadius="4" colorBorder="@color/color-trans" colorBorderHover="@color/color-trans" colorBorderPush="@color/color-trans" colorBorderDisable="@color/color-trans"/>
+
+
+	<button name="skin_edit_bgtrans" colorUp="@color/color-trans" colorDown="@color/color-trans" colorUpHover="@color/color-trans" colorDownHover="@color/color-trans" colorUpPush="@color/color-trans" colorDownPush="@color/color-trans" colorUpDisable="@color/color-trans" colorDownDisable="@color/color-trans" cornerRadius="4" colorBorder="@color/border-color-base" colorBorderHover="#c0c4cc" colorBorderPush="@color/color-primary" colorBorderDisable="@color/border-color-base"/>
+
+	<button name="skin_edit_bgwhite" colorUp="@color/color-white" colorDown="@color/color-white" colorUpHover="@color/color-white" colorDownHover="@color/color-white" colorUpPush="@color/color-white" colorDownPush="@color/color-white" colorUpDisable="@color/color-white" colorDownDisable="@color/color-white" cornerRadius="4" colorBorder="@color/border-color-base" colorBorderHover="#c0c4cc" colorBorderPush="@color/color-primary" colorBorderDisable="@color/border-color-base"/>
+
+
+	<button name="skin_edit" colorUpHover="@color/white-8" colorDownHover="@color/white-8" colorUpPush="@color/white-100" colorDownPush="@color/white-100" colorUp="@color/white-2" colorDown="@color/white-2" colorUpDisable="@color/white-2" colorDownDisable="@color/white-2" colorBorder="@color/white-20" colorBorderDisable="@color/white-20" cornerRadius="4" colorBorderHover="@color/white-20" colorBorderPush="@color/white-20" />
+
+	<button name="skin_edit_border2" colorUpHover="@color/Black-6" colorDownHover="@color/Black-6" colorUpPush="@color/Black-6" colorDownPush="@color/Black-6" colorUp="@color/Black-2" colorDown="@color/Black-2" colorUpDisable="@color/Black-2" colorDownDisable="@color/Black-2" colorBorder="@color/Black-25" colorBorderDisable="@color/Black-25" cornerRadius="4" colorBorderHover="@color/Black-25" colorBorderPush="@color/Black-25" />
+	<button name="skin_edit_border3" colorUpHover="@color/Black-65" colorDownHover="@color/Black-65" colorUpPush="@color/Black-65" colorDownPush="@color/Black-65" colorUp="@color/Black-2" colorDown="@color/Black-2" colorUpDisable="@color/Black-2" colorDownDisable="@color/Black-2" colorBorder="@color/white-20" colorBorderDisable="@color/white-20" cornerRadius="4" colorBorderHover="@color/white-20" colorBorderPush="@color/white-20" />
+
+	<button name="skin_btn_class4_border" colorUp="#FFFFFFFF" colorDown="#FFFFFFFF" colorUpHover="#FFFFFFFF" colorDownHover="#FFFFFFFF" colorUpPush="#FFFFFFFF" colorDownPush="#FFFFFFFF" colorUpDisable="#FFFFFFFF" colorDownDisable="#FFFFFFFF" cornerRadius="4" colorBorder="#d8dce6ff" colorBorderHover="#d8dce6ff" colorBorderPush="#d8dce6ff" colorBorderDisable="#d8dce6ff" />
+	<button name="skin_line_border" colorUpHover="#00000000" colorDownHover="#00000000" colorUpPush="#00000000" colorDownPush="#00000000" colorUp="#00000000" colorDown="#00000000" colorUpDisable="#00000000" colorDownDisable="#00000000" colorBorder="#dcdfe6ff" colorBorderDisable="#dcdfe6ff" cornerRadius="0" colorBorderHover="#1989faff" colorBorderPush="#1989faff" />
+
+	<button name="skin_listhead_bkgrund" colorUpHover="#f6f8faff" colorDownHover="#f6f8faff" colorUpPush="#f6f8faff" colorDownPush="#f6f8faff" colorUp="#f6f8faff" colorDown="#f6f8faff" colorUpDisable="#f6f8faff" colorDownDisable="#f6f8faff" cornerRadius="0" />
+	<button name="skin_listitem_bkgrund" colorUpHover="#f6f8faff" colorDownHover="#f6f8faff" colorUpPush="#f6f8faff" colorDownPush="#f6f8faff" colorUp="#00000000" colorDown="#00000000" colorUpDisable="#f6f8faff" colorDownDisable="#f6f8faff" cornerRadius="0" />
+
+	<imglist name="TrayMenu_menu_icon" src="IMG:menuicon" states="5" filterLevel="high"/>
+	<colorrect name="TrayMenu_menu_bkgnd" hover="#cccccc" />
+	<colorrect name="TrayMenu_menu_sep" normal="#cccccc" />
+
+</skin>

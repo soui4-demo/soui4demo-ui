@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="uidef\init.xml"/>
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml"/>
+		<file name="WIN_TOPNAVBAR" path="xml\win_topnavbar.xml"/>
+		<file name="WIN_FOOTNAVBAR" path="xml\win_footnavbar.xml"/>
+		<file name="MAIN_PAGE_HOME" path="xml\main\page_home.xml" />
+		<file name="MAIN_PAGE_BUTTON" path="xml\main\page_button.xml" />
+		<file name="MAIN_PAGE_LIST" path="xml\main\page_list.xml" />
+		<file name="LIST_PAGE_LISTCTRL" path="xml\main\list\page_listctrl.xml" />
+		<file name="LIST_PAGE_MCLISTVIEW" path="xml\main\list\page_mclistview.xml" />
+		<file name="XML_MESSAGEWND" path="xml\dlg_msg.xml" />
+	</LAYOUT>
+
+	<values>
+		<file name="string" path="values\string.xml"/>
+		<file name="color" path="values\color.xml"/>
+		<file name="skin" path="values\skin.xml"/>
+	</values>
+
+	<IMG>
+		<file name="shadow_png" path="image\shadow.png" />
+		<file name="scroll_bar_png" path="image\scroll_bar.png" />
+		<file name="checkbox_png" path="image\checkbox.png" />
+		<file name="close_png" path="image\close.png" />
+		<file name="max_png" path="image\max.png" />
+		<file name="restore_png" path="image\restore.png" />
+		<file name="min_png" path="image\min.png" />
+		<file name="msgicon" path="image\msgicon.png" />
+		<file name="png_soui" path="image\soui.png" />
+		<file name="menuicon" path="image\menuicon.png" />
+		<file name="png_lcex_header" path="image\lcex_header.png" />
+		<file name="png_lcex_header_arrow" path="image\lcex_header_arrow.png" />
+	</IMG>
+	<ICON>
+		<file name="ICON_LOGO"  path="image\soui.ico"/>
+	</ICON>
+	<SMENU>
+		<file name="menu_tray" path="xml\menu_tray.xml"/>
+	</SMENU>
+</resource>

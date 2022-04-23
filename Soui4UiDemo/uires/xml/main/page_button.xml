@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<include width="1120" height="700">
+	<window pos="0,0,-0,-0">
+		<window pos="5,5" size="-1,-1" layout="hbox" gravity="center">
+			<button size="80,40" drawFocusRect="0" class="class_btn_font_default" skin="skin_btn_default" alpha="255" >默认按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_primary" skin="skin_btn_primary" alpha="255" >主要按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_success" skin="skin_btn_success" alpha="255" >成功按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_warning" skin="skin_btn_warning" alpha="255" >警告按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_danger" skin="skin_btn_danger" alpha="255" >危险按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_info" skin="skin_btn_info" alpha="255" >信息按钮</button>
+		</window>
+		<window pos="5,[5" size="-1,-1" layout="hbox" gravity="center">
+			<button size="80,40" drawFocusRect="0" class="class_btn_font_default" skin="skin_btn_no_default" alpha="255" >默认按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_primary" skin="skin_btn_no_primary" alpha="255" >主要按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_success" skin="skin_btn_no_success" alpha="255" >成功按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_warning" skin="skin_btn_no_warning" alpha="255" >警告按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_danger" skin="skin_btn_no_danger" alpha="255" >危险按钮</button>
+			<button extend_left="5" size="80,40" drawFocusRect="0" class="class_btn_font_info" skin="skin_btn_no_info" alpha="255" >信息按钮</button>
+		</window>
+	</window>
+	
+</include>

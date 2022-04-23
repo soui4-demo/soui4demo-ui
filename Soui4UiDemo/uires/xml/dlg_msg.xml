@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<SOUI title="mesagebox" width="-1" height="-1" minSize="40,40" appwin="0" resize="0" translucent="1" trCtx="messagebox">
+	<buttonText>
+		<ok>确定</ok>
+		<cancel>取消</cancel>
+		<abort>中止</abort>
+		<retry>重试</retry>
+		<yes>是</yes>
+		<no>否</no>
+		<ignore>忽略</ignore>
+	</buttonText>
+	<root skin="skin_shadow_png">
+		<caption margin="12,12,12,12" size="-1,-1">
+			<window name="wnd_normal" pos="0,0" size="420,-1" layout="vbox" display="0" colorBkgnd="@color/Main-while">
+				<caption size="-2,40" colorBkgnd="@color/Main-emphasis">
+					<text pos="18,2" size="-1,-2" class="font_R18" colorText="#000000FF" name="msgtitle">prompt</text>
+					<button pos="-10,|0" size="24,24" offset="-1,-0.5" skin="skin_close_png" id="2" drawFocusRect="0" />
+				</caption>
+				<window size="-2,-1" extend="18,5,18,10">
+					<img name="msgicon" skin="msgico" pos="2,0" size="24,24" display="0" />
+					<text name="msgtext" pos="[8,2" size="-2,-1" colorText="#606266FF" multilines="1" valign="top" />
+				</window>
+				<tabctrl size="-2,52" padding="0,10,0,12" name="btnSwitch" tabHeight="0">
+					<page>
+						<button pos="-16,0" size="52,30" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+					<page>
+						<button pos="]-16,0" size="52,30" offset="-1,0" name="button2nd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button2</button>
+						<button pos="-16,0" size="52,30" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+					<page>
+						<button pos="]-16,0" size="52,30" offset="-1,0" name="button3rd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button3</button>
+						<button pos="]-16,0" size="52,30" offset="-1,0" name="button2nd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button2</button>
+						<button pos="-16,0" size="52,30" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+				</tabctrl>
+			</window>
+			<window name="wnd_alert" pos="0,0" size="437,192" layout="vbox" display="0" colorBkgnd="@color/Main-while">
+				<window size="-2,-1" extend="32,32,32,0" colorBkgnd="@color/Main-emphasis">
+					<img name="msgicon" skin="msgico" pos="2,0" size="26,26" display="0" />
+					<text name="msgtitle" class="font_R16" pos="[8,2" size="-2,-1" colorText="#606266FF" multilines="1" valign="top" />
+				</window>
+				<window size="-2,-1" weight="1" extend="70,14,32,0">
+					<text name="msgtext" pos="0,0" size="-2,-1" colorText="#606266FF" multilines="1" valign="top" />
+				</window>
+				<tabctrl size="-2,56" padding="0,0,0,24" name="btnSwitch" tabHeight="0">
+					<page>
+						<button pos="-16,0" size="65,32" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+					<page>
+						<button pos="]-16,0" size="65,32" offset="-1,0" name="button2nd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button2</button>
+						<button pos="-16,0" size="65,32" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+					<page>
+						<button pos="]-16,0" size="65,32" offset="-1,0" name="button3rd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button3</button>
+						<button pos="]-16,0" size="65,32" offset="-1,0" name="button2nd" class="btn_class3" skin="skin_btn_class3" drawFocusRect="0">button2</button>
+						<button pos="-16,0" size="65,32" offset="-1,0" name="button1st" class="btn_class1" skin="skin_btn_class1" drawFocusRect="0">button1</button>
+					</page>
+				</tabctrl>
+			</window>
+			<caption name="wnd_user" pos="0,0" size="330,-1" layout="vbox" display="0">
+				<caption size="-2,40">
+					<img name="msgicon" skin="msgico" pos="16,|0" offset="0,-0.5" size="24,24" />
+					<text name="msgtitle" class="font_R16" pos="[8,0" size="-2,-2" colorText="#000000FF" />
+					<button pos="-10,|0" size="24,24" offset="-1,-0.5" skin="skin_close_png" id="2" drawFocusRect="0" />
+				</caption>
+				<text name="msgtext" extend="48,0,16,18" size="-2,-1" colorText="#606266FF" multilines="1" valign="top" text="text" />
+			</caption>
+			<caption name="wnd_tips" pos="0,0" size="-1,40" layout="vbox" display="0">
+				<caption size="-1,-2" extend="16,0,16,0">
+					<img name="msgicon" skin="msgico" pos="0,|0" size="24,24" offset="0,-0.5" />
+					<text name="msgtext" pos="[8,|0" size="-1,-1" offset="0,-0.5" colorText="#000000FF" text="text" />
+				</caption>
+			</caption>
+		</caption>
+	</root>
+</SOUI>

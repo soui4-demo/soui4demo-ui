@@ -1,0 +1,14 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16"   width="300" height="-1" maxInset="12,12,12,12" margin="0,0,0,0" resizable="1" toolWindow="1" translucent="1" trCtx="dlg_main" appWnd="1" sendWheel2Hover="1"
+>
+  <root skin="skin_shadow_png" >
+    <caption margin="12,12,12,12" size="-2,-1" font="adding:0" colorBkgnd="@color/Main-while" layout="vbox">
+      <caption size="-2,40">
+				<include pos="0,0" src="LAYOUT:WIN_TOPNAVBAR" />
+			</caption>
+      <caption size="-2,-1" layout="hbox" gravity="center" padding="10,10,10,10">
+        <edit2 name="leng" size="0,40" weight="1" padding="10,0,10,0" cueText="0" cueColor="@color/Black-25" colorText="@color/Black-65" skin="skin_edit_border2" />
+        <button name="btn_set" extend_left="10" size="80,40" drawFocusRect="0" skin="skin_btn_class3" alpha="255" >设置</button>
+      </caption>
+    </caption>
+  </root>
+</SOUI>

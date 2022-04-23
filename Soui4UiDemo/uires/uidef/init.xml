@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIDEF>
+  <font face="微软雅黑" size="14"/>
+
+  <string src="values:string" />
+  <skin src="values:skin"/>
+  <color src="values:color"/>
+
+
+  <style>
+    <class name="font_H1" font="face:微软雅黑,bold:1,size:20" />
+    <class name="font_H2" font="face:微软雅黑,bold:1,size:18" />
+    <class name="font_H3" font="face:微软雅黑,bold:1,size:16" />
+    <class name="font_H4" font="face:微软雅黑,bold:1,size:14" />
+    <class name="font_H5" font="face:微软雅黑,bold:1,size:13" />
+    <class name="font_H6" font="face:微软雅黑,bold:1,size:12" />
+    <class name="font_body" font="face:微软雅黑,size:14" />
+    <class name="font_small" font="face:微软雅黑,size:13" />
+    
+    <class name="class_btn_font_default" font="face:微软雅黑,size:14" colorText="@color/color-text-regular" colorTextHover="@color/color-primary" colorTextPush="@color/color-primary" colorTextDisable="@color/color-text-placeholder"/>
+
+    <class name="class_btn_font_primary" font="face:微软雅黑,size:14" colorText="@color/color-white" colorTextHover="@color/color-white" colorTextPush="@color/color-white" colorTextDisable="@color/color-text-placeholder"/>
+    <class name="class_btn_font_success" font="face:微软雅黑,size:14" colorText="@color/color-white" colorTextHover="@color/color-white" colorTextPush="@color/color-white" colorTextDisable="@color/color-text-placeholder"/>
+    <class name="class_btn_font_info" font="face:微软雅黑,size:14" colorText="@color/color-white" colorTextHover="@color/color-white" colorTextPush="@color/color-white" colorTextDisable="@color/color-text-placeholder"/>
+    <class name="class_btn_font_warning" font="face:微软雅黑,size:14" colorText="@color/color-white" colorTextHover="@color/color-white" colorTextPush="@color/color-white" colorTextDisable="@color/color-text-placeholder"/>
+    <class name="class_btn_font_danger" font="face:微软雅黑,size:14" colorText="@color/color-white" colorTextHover="@color/color-white" colorTextPush="@color/color-white" colorTextDisable="@color/color-text-placeholder"/>
+
+    <class name="class_edit_font_white" font="face:微软雅黑,size:14" colorText="@color/color-text-regular" colorTextHover="@color/color-text-regular" colorTextPush="@color/color-text-regular" colorTextDisable="@color/color-text-placeholder"/>
+
+    <class name="btn_class2" font="face:微软雅黑,size:14" colorText="#1989FAFF" colorTextHover="#1890FFFF" colorTextPush="#1274CEFF" colorTextDisable="#FFFFFFFF"/>
+    <class name="btn_class3" font="face:微软雅黑,size:14" colorText="#909399FF" colorTextHover="#666666FF" colorTextPush="#666666FF" colorTextDisable="#D8DCE6FF"/>
+    <class name="btn_class4" font="face:微软雅黑,size:14" colorText="#F5222DFF" colorTextHover="#F5222DFF" colorTextPush="#DF1923FF" colorTextDisable="#D8DCE6FF"/>
+      
+  </style>
+
+  <objattr>
+  </objattr>
+</UIDEF>

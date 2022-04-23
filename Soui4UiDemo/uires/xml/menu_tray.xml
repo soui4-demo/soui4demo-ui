@@ -1,0 +1,4 @@
+﻿<menuRoot name="menu" itemHeight="38" iconSkin="TrayMenu_menu_icon" iconPos="12" textOffset="18" colorBkgnd="@color/white-100" sepSkin="TrayMenu_menu_sep" itemSkin="TrayMenu_menu_bkgnd" ncSkin="skin_shadow_png" maxWidth="198" minWidth="198" margin="12,12,12,12">
+	<menuItem id="1" icon="3" cursor="hand">关于</menuItem>
+	<menuItem id="2" icon="4" cursor="hand">退出</menuItem>
+</menuRoot>

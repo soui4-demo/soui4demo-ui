@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<include width="1120" height="48">
+	<caption pos="0,0" size="-2,-2" layout="hbox" gravity="center" colorBkgnd="@color/Main-emphasis">
+		<caption size="-1,-2">
+			<icon pos="10,|0" offset="0,-0.5" src="ICON_LOGO:24"/>
+      		<text pos="[4,|-2" name="title" offset="0,-0.5" class="font_R16" colorText="@color/Main-text">@string/title</text>
+		</caption>
+		<caption size="-1,-2" weight="1" layout="hbox" gravity="center">
+      
+		</caption>
+		<caption size="-1,-2" layout="hbox" gravity="center">
+			<button extend_right="4" size="24,24" drawFocusRect="0" skin="skin_min_png" name="btn_min">
+			</button>
+			<caption extend_right="4" size="24,24">
+				<button size="-2,-2" drawFocusRect="0" skin="skin_max_png" name="btn_max" display="0">
+				</button>
+				<button size="-2,-2" drawFocusRect="0" skin="skin_max_png" name="btn_restore" display="0">
+				</button>
+			</caption>
+			<button extend_right="10" size="24,24" drawFocusRect="0" skin="skin_close_png" name="btn_close">
+			</button>
+		</caption>
+	</caption>
+  	<window pos="0,-1" size="-2,1" colorBkgnd="@color/Main-light"/>
+</include>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<include width="1120" height="700">
+	<window pos="0,0,-0,-0">
+		<listctrl pos="0,0,-0,-0" name="lsct1" itemHeight="20" headerHeight="30" colorBkgnd="@color/color-white" colorGrid="@color/background-color-base" class="class_btn_font_default" itemSkin="skin_btn_no_default" colorText="@color/color-text-regular" colorSelText="@color/color-primary" sbSkin="skin_scroll_bar_png" sbWid="12" scrollSpeed="48">
+			<headerStyle align="left" itemSwapEnable="1" fixWidth="0" sortHeader="1" class="class_btn_font_default" itemSkin="skin_lcex_header">
+				<items>
+					<item width="150" weight="1">名字</item>
+					<item width="150">性别</item>
+					<item width="150">年龄</item>
+				</items>
+			</headerStyle>
+		</listctrl>
+	</window>
+</include>

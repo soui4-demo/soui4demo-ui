@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<include width="1120" height="20">
+	<window size="-2,1" colorBkgnd="@color/Main-light"/>
+	<caption name="footnavbar" pos="0,[0" size="-2,-2" layout="hbox" gravity="center"  colorBkgnd="@color/Main-dark">
+		<caption size="-2,-2" layout="hbox" gravity="center">
+			<caption pos="-1,0" weight="1">
+			</caption>
+			<caption pos="-1,0" layout="hbox" gravity="righet">
+				<window size="17,-2">
+					<window pos="|0,|0" size="1,12" offset="-0.5,-0.5" colorBkgnd="#D8D8D8FF" />
+				</window>
+				<caption size="-1,-2" layout="hbox" gravity="right">
+					<text size="-1,-2" name="versions" text="应用版本: 1.0" colorText="@color/Main-text" class="font_R12" />
+				</caption>
+				<window size="17,-2">
+					<!--<window pos="|0,|0" size="1,12" offset="-0.5,-0.5" colorBkgnd="#D8D8D8FF" />-->
+				</window>
+			</caption>
+		</caption>
+	</caption>
+</include>
