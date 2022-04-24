@@ -12,6 +12,8 @@
 		<file name="MAIN_PAGE_LIST" path="xml\main\page_list.xml" />
 		<file name="LIST_PAGE_LISTCTRL" path="xml\main\list\page_listctrl.xml" />
 		<file name="LIST_PAGE_MCLISTVIEW" path="xml\main\list\page_mclistview.xml" />
+		<file name="LIST_PAGE_TREECTRL" path="xml\main\list\page_treectrl.xml" />
+		<file name="LIST_PAGE_TREEVIEW" path="xml\main\list\page_treeview.xml" />
 		<file name="XML_MESSAGEWND" path="xml\dlg_msg.xml" />
 	</LAYOUT>
 
@@ -24,11 +26,15 @@
 	<IMG>
 		<file name="shadow_png" path="image\shadow.png" />
 		<file name="scroll_bar_png" path="image\scroll_bar.png" />
+		<file name="treecheckbox_png" path="image\treecheckbox.png" />
 		<file name="checkbox_png" path="image\checkbox.png" />
+		<file name="radiobox_png" path="image\radiobox.png" />
+		<file name="imgbusy_png" path="image\img_busy.png" />
 		<file name="close_png" path="image\close.png" />
 		<file name="max_png" path="image\max.png" />
 		<file name="restore_png" path="image\restore.png" />
 		<file name="min_png" path="image\min.png" />
+		<file name="TreeIcon" path="image\TreeIcon.png" />
 		<file name="msgicon" path="image\msgicon.png" />
 		<file name="png_soui" path="image\soui.png" />
 		<file name="menuicon" path="image\menuicon.png" />

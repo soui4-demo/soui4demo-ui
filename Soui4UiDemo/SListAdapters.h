@@ -1,5 +1,18 @@
 #pragma once
 #include "helper/SAdapterBase.h"
+typedef struct
+{
+	SStringW pszPath;
+	int leng;
+} TreeItemData;
+class CTreeViewAdapter : public STreeAdapterBase<TreeItemData>
+{
+public:
+	virtual void WINAPI getView(HSTREEITEM hItem, SItemPanel* pItem, SXmlNode xmlTemplate);
+	BOOL OnItemClick(IEvtArgs* pEvt);
+	BOOL OnSwitchClick(IEvtArgs* pEvt);
+};
+
 
 class CMcAdapterList : public SMcAdapterBase
 {

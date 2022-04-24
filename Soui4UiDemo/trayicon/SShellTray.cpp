@@ -165,7 +165,6 @@ namespace SOUI
 	{
 		m_MsgOnlyWnd = new SShellTrayMsgWnd(this);
 		SASSERT(IsWindow(m_MsgOnlyWnd->m_hWnd));
-		SASSERT(m_iDefIcon < m_ArrIcon.GetCount());
 		if (m_iDefIcon >= m_ArrIcon.GetCount())
 			m_iDefIcon = 0;
 		IniNotifyIconData(m_MsgOnlyWnd->m_hWnd, m_ArrIcon.GetCount() == 0 ? GETRESPROVIDER->LoadIcon(_T("ICON_LOGO"), 16) : m_ArrIcon[m_iDefIcon],NIF_ICON|NIF_TIP,m_strTip);

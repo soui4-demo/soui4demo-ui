@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<include width="1120" height="700">
+	<window pos="0,0,-0,-0">
+		<treeview pos="0,0,-0,-0" name="treeview1" 
+				  itemHeight="-1" 
+				  indent="30" 
+				  class="class_btn_font_default"
+			      colorBkgnd="@color/color-white"
+				  sbSkin="skin_scroll_bar_png" 
+				  sbFadeFrames="5" sbWid="12" scrollSpeed="48">
+			<template height="60" colorSelected="#0000ff" trackMouseEvent="1" class="class_btn_font_default" skin="skin_btn_no_default">
+				<window pos="0,0,-0,@-1">
+					<toggle pos="[0,|0,@20,@20"  offset="0,-0.5" name="tgl_switch" skin="_skin.sys.tree.toggle" tip="show how to use switch"/>
+					<button pos="[0,5,@150,-5" name="btn_test" drawFocusRect="0" class="class_btn_font_default" skin="skin_btn_default" tip="click the button to see how to writing the response function">btn</button>
+					<animateimg pos="[10,{0" skin="skin_imgbusy_png" name="ani_test" tip="animateimg is used here" msgTransparent="0" />
+					<text pos="|0,{0" offset="-1,0" colorText="#ff0000" name="txt_red">text item</text>
+				</window>
+			</template>
+		</treeview>
+	</window>
+</include>

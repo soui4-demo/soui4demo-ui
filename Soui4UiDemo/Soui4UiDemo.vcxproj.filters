@@ -100,37 +100,13 @@
     <Xml Include="uires\xml\dlg_input.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
-    <Xml Include="uires\xml\dlg_insert_element.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
     <Xml Include="uires\xml\dlg_main.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\dlg_main_left.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\dlg_main_right.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\dlg_msg.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
-    <Xml Include="uires\xml\dlg_new_layout.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\dlg_new_skin.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\dlg_res_mgr.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\dlg_uidesigner.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
     <Xml Include="uires\xml\menu_tray.xml">
-      <Filter>SoUI Resource</Filter>
-    </Xml>
-    <Xml Include="uires\xml\messagebox.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\win_footnavbar.xml">
@@ -140,6 +116,12 @@
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\main\list\page_listctrl.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\main\list\page_treectrl.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\main\list\page_treeview.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
   </ItemGroup>

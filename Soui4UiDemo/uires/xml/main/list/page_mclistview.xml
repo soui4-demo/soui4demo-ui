@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0"?>
 <include width="1120" height="700">
 	<window pos="0,0,-0,-0">
-		<mclistview pos="0,0,-0,-0" name="mclv1" colorBkgnd="@color/color-white" colorGrid="@color/background-color-base" headerHeight="40" sbSkin="skin_scroll_bar_png" sbWid="12" scrollSpeed="48">
+		<mclistview pos="0,0,-0,-0" name="mclv1" 
+					colorBkgnd="@color/color-white" 
+					colorGrid="@color/background-color-base" 
+					headerHeight="40" 
+					sbSkin="skin_scroll_bar_png" 
+					sbFadeFrames="5" sbWid="12" scrollSpeed="48">
 			<headerStyle wndclass="header" name="mclv1_header" itemSwapEnable="1" sortHeader="1" class="class_btn_font_default" itemSkin="skin_lcex_header" sortSkin="skin_lcex_header_arrow">
 				<items>
 					<item weight="100" >裂纹</item>

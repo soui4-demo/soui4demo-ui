@@ -2,15 +2,18 @@
 
 <skin> 
 	<imgframe name="skin_shadow_png" src="IMG:shadow_png" margin-y="20" margin-x="20" filterLevel="high" />
-	<imglist name="msgico" src="IMG:msgicon" states="4" filterLevel="high"/>
-	<imglist name="skin_checkbox_png" src="IMG:checkbox_png" states="8" checkAsPushdown="0" filterLevel="high" />
 	<scrollbar name="skin_scroll_bar_png" src="IMG:scroll_bar_png" margin="3" hasGripper="0" filterLevel="high" />
+	<imglist name="skin_treecheckbox_png" src="IMG:treecheckbox_png" states="9" checkAsPushdown="0" filterLevel="high" />
+	<imglist name="skin_checkbox_png" src="IMG:checkbox_png" states="8" checkAsPushdown="0" filterLevel="high" />
+	<imglist name="skin_radiobox_png" src="IMG:radiobox_png" states="8" checkAsPushdown="0" filterLevel="high" />
+	<imglist name="skin_imgbusy_png" src="IMG:imgbusy_png" states="8" checkAsPushdown="0" filterLevel="high" />
+	
+	<imglist name="msgico" src="IMG:msgicon" states="4" filterLevel="high"/>
+	<imglist name="TreeIcon" src="IMG:TreeIcon" states="3" filterLevel="high"/>
 	<imglist name="skin_close_png" src="IMG:close_png" states="3" filterLevel="high" />
 	<imglist name="skin_max_png" src="IMG:max_png" states="3" filterLevel="high" />
 	<imglist name="skin_restore_png" src="IMG:restore_png" states="3" filterLevel="high" />
 	<imglist name="skin_min_png" src="IMG:min_png" states="3" filterLevel="high" />
-	<!--<imglist name="skin_home_png" src="IMG:home_png" states="1" filterLevel="high" />
-	<imglist name="skin_query_png" src="IMG:query_png" states="1" filterLevel="high" />-->
 	<imgframe name="skin_lcex_header" src="IMG:png_lcex_header" states="4" margin-x="2" margin-y="2" />
 	<imgframe name="skin_lcex_header_arrow" src="IMG:png_lcex_header_arrow" states="2" />
 	

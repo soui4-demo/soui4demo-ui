@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0"?>
 <include width="1120" height="700">
 	<window pos="0,0,-0,-0">
-		<tabctrl name="tab_list" pos="0,0,-0,-0" padding="5,5,5,5" curSel="0" drawFocusRect="0" interpolator="Decelerate" animateSteps="30" animateType="1" tabWidth="80" tabHeight="40"  tabInterSize="5,5,-5,-5" tabPos="5,5,-5,-5" tabSkin="skin_btn_default" class="class_btn_font_default" colorBkgnd="@color/background-color-base">
+		<tabctrl name="tab_list" pos="0,0,-0,-0" padding="5,5,5,5" curSel="0" drawFocusRect="0" interpolator="Decelerate" tabAlign="left" animateSteps="30" animateType="1" tabWidth="80" tabHeight="40"  tabInterSize="5,5,-5,-5" tabPos="5,5,-5,-5" tabSkin="skin_btn_default" class="class_btn_font_default" colorBkgnd="@color/background-color-base">
 			<page title="列表组件">
 				<include pos="0,0" src="LAYOUT:LIST_PAGE_LISTCTRL"/>
 			</page>
 			<page title="列表视窗">
 				<include pos="0,0" src="LAYOUT:LIST_PAGE_MCLISTVIEW"/>
+			</page>
+			<page title="树形组件">
+				<include pos="0,0" src="LAYOUT:LIST_PAGE_TREECTRL"/>
+			</page>
+			<page title="树形视图">
+				<include pos="0,0" src="LAYOUT:LIST_PAGE_TREEVIEW"/>
 			</page>
 		</tabctrl>
 	</window>
