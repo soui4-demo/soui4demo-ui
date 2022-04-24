@@ -9,8 +9,8 @@
 	<imglist name="skin_max_png" src="IMG:max_png" states="3" filterLevel="high" />
 	<imglist name="skin_restore_png" src="IMG:restore_png" states="3" filterLevel="high" />
 	<imglist name="skin_min_png" src="IMG:min_png" states="3" filterLevel="high" />
-	<imglist name="skin_home_png" src="IMG:home_png" states="1" filterLevel="high" />
-	<imglist name="skin_query_png" src="IMG:query_png" states="1" filterLevel="high" />
+	<!--<imglist name="skin_home_png" src="IMG:home_png" states="1" filterLevel="high" />
+	<imglist name="skin_query_png" src="IMG:query_png" states="1" filterLevel="high" />-->
 	<imgframe name="skin_lcex_header" src="IMG:png_lcex_header" states="4" margin-x="2" margin-y="2" />
 	<imgframe name="skin_lcex_header_arrow" src="IMG:png_lcex_header_arrow" states="2" />
 	

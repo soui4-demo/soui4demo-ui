@@ -37,7 +37,7 @@
 			<caption pos="0,[0,-0,-0">
 				<include pos="0,0" src="LAYOUT:WIN_FOOTNAVBAR" />
 			</caption>
-			<shellnotifyicon name="menu" ico="ICON_LOGO" tip="@string/title" />
+			<shellnotifyicon name="menu" icons="ICON_LOGO:16" tip="@string/title" />
 		</caption>
 	</root>
 </SOUI>
